@@ -1,10 +1,8 @@
 package oop.inheritance;
 
-public class Ticket implements ISaleableItem{
-    private String Description;
-    private float price;
-    private String client;
-
+public class StampBook implements ISaleableItem {
+    private Integer qty;
+    private Integer value;
     @Override
     public float Price() {
         return 0;
