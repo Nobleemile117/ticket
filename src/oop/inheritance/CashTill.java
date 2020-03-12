@@ -6,7 +6,7 @@ public class CashTill implements ISaleableItem {
 
     @Override
     public float Price() {
-        return 1;
+        return 0;
     }
 
     @Override
